@@ -1,0 +1,8 @@
+.TopNavBar {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+.TopNavBar img {
+  width: 100px;
+}
