@@ -43,7 +43,7 @@ const Home = () => {
                 alt="store front"
               />
             </div> 
-            <Carousel.Caption><h3>Buonos Pizza Gilbert</h3></Carousel.Caption>
+            <Carousel.Caption><h3>Buonos Pizza Higley</h3></Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <div className='wrapper'>

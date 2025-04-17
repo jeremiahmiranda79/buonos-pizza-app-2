@@ -30,7 +30,7 @@ const SideOrder = () => {
   return (
     <Container id={PRODUCT_CATEGORIES[12].id}>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[12].name}</h1>
-      <Image style={{marginBottom: '10px'}} src="/images/categories/side-meatballs.webp" fluid alt={PRODUCT_CATEGORIES[12].name}/>
+      <Image style={{marginBottom: '10px'}}src="/images/categories/side-meatballs.webp" fluid alt={PRODUCT_CATEGORIES[12].name}/>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">
         {SIDE_ORDER.map((item) => (
           <Col key={item.id}>
