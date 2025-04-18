@@ -1,22 +1,7 @@
-/* .VideoPlayer {
-  aspect-ratio: 16 / 9;
-  width: auto;
-  display: block;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-@media (max-width: 768px) {
-  .video-player {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-} */
 .wrapper {
   height: 600px;
   width: 1200px;
   margin-bottom: 20px;
-  /* align-content: center; */
   text-align: center;
 }
 @media (max-width: 425px) {
