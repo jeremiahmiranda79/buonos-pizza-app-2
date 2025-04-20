@@ -9,10 +9,9 @@ const About = () => {
       <Information/>
       <h2 style={{textAlign: 'center'}}>About Us</h2>
       <center>
-        <div className="wrapper">
+        <div className="video-container">
           <iframe 
-            width="100%" 
-            height="100%" 
+            className='responsive-iframe' 
             src="https://www.youtube-nocookie.com/embed/-yCUuy-aX80?si=Vt-eH92ZDxaQ4BbU&amp;start=603" 
             title="YouTube video player" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

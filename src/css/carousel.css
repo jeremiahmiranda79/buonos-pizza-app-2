@@ -1,11 +1,5 @@
 .wrapper {
-  height: 600px;
-  width: 1200px;
+  height: 90%;
+  width: 90%;
   margin-bottom: 20px;
-}
-@media (max-width: 425px) {
-  .wrapper {
-    height: 200px;
-    width: 375px;
-  }
 }

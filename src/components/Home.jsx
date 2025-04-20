@@ -16,10 +16,9 @@ const Home = () => {
       <Information/>
       <h2 style={{textAlign: 'center'}}>How we do it</h2>
       <center>
-        <div className="wrapper">
+        <div className="video-container">
           <iframe 
-            width="100%" 
-            height="100%" 
+            className='responsive-iframe'
             src="https://www.youtube.com/embed/yaQVJVlKhPQ?si=V13N0b1yJtQaKEo9&amp;controls=0&autoplay=1&mute=1&loop=1&playlist=yaQVJVlKhPQ" 
             title="YouTube video player" 
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
