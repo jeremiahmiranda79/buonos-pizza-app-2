@@ -59,14 +59,17 @@ const Appetizer = () => {
                 {item.size1 ? <Card.Text style={{marginBottom: '0px'}}>{item.size1} ${item.price1.toFixed(2)}</Card.Text> : null}
                 {item.size2 ? <Card.Text style={{marginBottom: '0px'}}>{item.size2} ${item.price2.toFixed(2)}</Card.Text> : null}
                 {item.size3 ? <Card.Text style={{marginBottom: '0px'}}>{item.size3} ${item.price3.toFixed(2)}</Card.Text> : null}
+
                 {item.isWings && <div className='mt-auto'>
                   <Button style={{marginTop: '10px'}} variant="primary" onClick={() => setModalShow(true)}>See wing sauce choices</Button>
                 </div>}
                 <MyVerticallyCenteredModal show={modalShow}onHide={() => setModalShow(false)}/>
+                  
                 {item.isWings && <div className='mt-auto'>
                   <Button style={{marginTop: '10px'}} variant="primary" onClick={() => setModalShow2(true)}>See dressing choices</Button>
                 </div>}
-                <MyVerticallyCenteredModal2 show={modalShow2}onHide={() => setModalShow2(false)}/>                
+                <MyVerticallyCenteredModal2 show={modalShow2}onHide={() => setModalShow2(false)}/> 
+
               </Card.Body>
             </Card>
           </Col>

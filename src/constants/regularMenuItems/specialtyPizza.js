@@ -6,9 +6,9 @@ export const SPECIALTY_PIZZA = [
     description: 'Long Island-style; a rustic rectangular pan pizza crust, topped with fresh mozzarella, garlic, & stone deck oven baked. Finished with a fresh tomato sauce, basil puree, & parmesan cheese.',
     images: '/images/menu-items/pizza/specialty-grandma-pie.webp',
     size1: 'Small, 8 cut',
-    price1: 18.99,
-    size2: null,
-    price2: null,
+    price1: 19.99,
+    size2: 'Large, 12 cut',
+    price2: 23.99,
     size3: null,
     price3: null
   },
@@ -19,11 +19,11 @@ export const SPECIALTY_PIZZA = [
     description: 'Neapolitan-style; a thin, round crust, topped with fresh mozzarella, & stone deck oven baked. Finished with a fresh tomato sauce, & basil puree.',
     images: '/images/menu-items/pizza/specialty-margherita-pizza.webp',
     size1: 'Small 14 inch, 6 cut',
-    price1: 17.99,
+    price1: 18.99,
     size2: null,
     price2: null,
     size3: 'Extra Large 18 inch, 8 cut',
-    price3: 21.99
+    price3: 22.99
   },
   {
     id: 3,

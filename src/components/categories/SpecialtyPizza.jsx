@@ -9,6 +9,7 @@ import {SPECIALTY_PIZZA} from '../../constants/regularMenuItems/specialtyPizza';
 import {TOPPINGS_PIZZA} from '../../constants/toppingsPizza';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import {WING_DIPPING} from '../../constants/wingDipping';
 
 function MyVerticallyCenteredModal(props) {
   return (
@@ -25,8 +26,26 @@ function MyVerticallyCenteredModal(props) {
   );
 };
 
+//TODO
+function MyVerticallyCenteredModal2(props) {
+  return (
+    <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
+      <Modal.Header closeButton>
+        <Modal.Title id="contained-modal-title-vcenter">DRESSINGS</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Dressing choices</h4>
+        <h6>Extra sides of dressings are sold by the each</h6>
+        <ul>{WING_DIPPING.map((dip) => (<li key={dip.id}>{dip.name} - First one free. All extra dressings: ${dip.price.toFixed(2)}</li>))}</ul>
+      </Modal.Body>
+    </Modal>
+  );
+};
+
 const SpecialtyPizza = () => {
   const [modalShow, setModalShow] = React.useState(false);
+  const [modalShow2, setModalShow2] = React.useState(false);
+
   return (
     <Container id={PRODUCT_CATEGORIES[1].id}>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[1].name}</h1>
@@ -38,12 +57,17 @@ const SpecialtyPizza = () => {
             <Card.Img variant="top" src={item.images} alt={item.name}/>
             <Card.Body>
               <Card.Title>{item.name}</Card.Title>
+              
               <Card.Text style={{marginBottom: '5px'}} >{item.description}</Card.Text>
               {item.size1 ? <Card.Text style={{marginBottom: '0px'}}>{item.size1} ${item.price1.toFixed(2)}</Card.Text> : null}
               {item.size2 ? <Card.Text style={{marginBottom: '0px'}}>{item.size2} ${item.price2.toFixed(2)}</Card.Text> : null}
               {item.size3 ? <Card.Text style={{marginBottom: '0px'}}>{item.size3} ${item.price3.toFixed(2)}</Card.Text> : null}
+              
               <Button style={{marginTop: '10px'}} variant="primary" onClick={() => setModalShow(true)}>See topping choices</Button>
-              <MyVerticallyCenteredModal show={modalShow}onHide={() => setModalShow(false)}/>      
+              <MyVerticallyCenteredModal show={modalShow}onHide={() => setModalShow(false)}/>  
+              <br />
+              <Button style={{marginTop: '10px'}} variant="primary" onClick={() => setModalShow2(true)}>See dipping choices</Button>
+              <MyVerticallyCenteredModal2 show={modalShow2} onHide={() => setModalShow2(false)}/>       
             </Card.Body>
           </Card>
         </Col>
