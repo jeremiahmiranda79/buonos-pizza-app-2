@@ -1,6 +1,20 @@
 export const HOT_SUB = [
   {
-    id: 1,
+    id: 10,
+    category: 'HotSub',
+    name: 'Pepperoni Melt',
+    description: 'Foot long Italian bread with pepperoni, marinara, mozzarella, oregano, & lightly toasted.',
+    images: '/images/menu-items/hot-sub/pepperoni-melt.webp',
+    size1: 'Twelve inches, serves one-two',
+    price1: 12.99,
+    size2: null,
+    price2: null,
+    size3: null,
+    price3: null
+  },
+  
+  {
+    id: 11,
     category: 'HotSub',
     name: 'Meatball Parmesan',
     description: 'Foot long Italian bread with meatballs, marinara sauce, mozzarella, oregano, & lightly toasted.',
@@ -13,7 +27,7 @@ export const HOT_SUB = [
     price3: null
   },
   {
-    id: 2,
+    id: 12,
     category: 'HotSub',
     name: 'Sausage Parmesan',
     description: 'Foot long Italian bread with suasage links, marinara sauce, mozzarella, oregano, & lightly toasted.',
@@ -26,7 +40,7 @@ export const HOT_SUB = [
     price3: null
   },
   {
-    id: 3,
+    id: 13,
     category: 'HotSub',
     name: 'Chicken Parmesan',
     description: 'Foot long Italian bread with breaded chicken cutlets, marinara sauce, mozzarella, oregano, & lightly toasted.',
@@ -39,7 +53,7 @@ export const HOT_SUB = [
     price3: null
   },
   {
-    id: 4,
+    id: 14,
     category: 'HotSub',
     name: 'Eggplant Parmesan',
     description: 'Foot long Italian bread with breaded eggplant cutlets, marinara sauce, mozzarella, oregano, & lightly toasted.',
@@ -51,21 +65,9 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
+  
   {
-    id: 5,
-    category: 'HotSub',
-    name: 'Pepperoni Melt',
-    description: 'Foot long Italian bread with pepperoni, marinara, mozzarella, oregano, & lightly toasted.',
-    images: '/images/menu-items/hot-sub/pepperoni-melt.webp',
-    size1: 'Twelve inches, serves one-two',
-    price1: 12.99,
-    size2: null,
-    price2: null,
-    size3: null,
-    price3: null
-  },
-  {
-    id: 6,
+    id: 15,
     category: 'HotSub',
     name: 'Sausage, Onions, Peppers',
     description: 'Foot long Italian bread with sauteed sausage, onions, peppers, oregano, & lightly toasted.',
@@ -77,8 +79,9 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
+  
   {
-    id: 7,
+    id: 16,
     category: 'HotSub',
     name: 'Philly Steak',
     description: 'Foot long Italian bread with sauteed steak, & onions. Topped with choice of melted cheese or cheese wiz, & lightly toasted.',
@@ -90,8 +93,9 @@ export const HOT_SUB = [
     size3: null,
     price3: null
   },
+
   {
-    id: 8,
+    id: 17,
     category: 'HotSub',
     name: 'Philly Chicken',
     description: 'Foot long Italian bread with sauteed chicken breast, & onions. Topped with choice of melted cheese or cheese wiz, & lightly toasted.',

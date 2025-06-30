@@ -12,6 +12,7 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+
   {
     id: 2,
     category: 'Dessert',
@@ -25,6 +26,7 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+
   {
     id: 3,
     category: 'Dessert',
@@ -38,6 +40,7 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+
   {
     id: 4,
     category: 'Dessert',
@@ -51,6 +54,7 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+
   {
     id: 5,
     category: 'Dessert',
@@ -64,6 +68,7 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+
   {
     id: 6,
     category: 'Dessert',
@@ -77,6 +82,7 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+
   {
     id: 7,
     category: 'Dessert',
@@ -90,6 +96,7 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+
   {
     id: 8,
     category: 'Dessert',
@@ -103,4 +110,5 @@ export const DESSERT = [
     size3: null,
     price3: null
   },
+  
 ];
