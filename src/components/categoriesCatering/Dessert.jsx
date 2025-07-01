@@ -8,7 +8,7 @@ import {DESSERT} from '../../constants/cateringMenuItems/dessert';
  
 const Dessert = () => {
   return (
-    <Container id={CATEGORIES_CATERING[5].id}>
+    <Container id={CATEGORIES_CATERING[5].id} style={{scrollMarginTop: '150px'}}>
       <h1 className='Title' style={{marginTop: '10px'}}>{CATEGORIES_CATERING[5].name}</h1>
       <h2>{CATEGORIES_CATERING[5].included}</h2>
       <h2>{CATEGORIES_CATERING[5].choice}</h2>

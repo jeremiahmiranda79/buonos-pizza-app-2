@@ -47,7 +47,7 @@ const GlutenFree = () => {
   const [modalShow2, setModalShow2] = React.useState(false);
 
   return (
-    <Container id={PRODUCT_CATEGORIES[2].id}>
+    <Container id={PRODUCT_CATEGORIES[2].id} style={{scrollMarginTop: '150px'}}>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[2].name}</h1>
       <Image style={{marginBottom: '10px'}} src="/images/categories/pizza-gluten-free.webp" fluid alt={PRODUCT_CATEGORIES[2].name}/>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">

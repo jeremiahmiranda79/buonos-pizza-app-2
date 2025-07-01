@@ -9,8 +9,8 @@ import {NY_SPECIALTY} from '../../constants/regularMenuItems/nySpecialty';
 
 const NYSpecialty = () => {
   return (
-    <Container style={{marginBottom: '25px'}} id={PRODUCT_CATEGORIES[15].id}>
-      <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[15].name}</h1>
+    <Container style={{marginBottom: '25px', scrollMarginTop: '150px'}} id={PRODUCT_CATEGORIES[15].id}>
+      <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[15].name} </h1>
       <Image 
         style={{marginBottom: '10px'}} src="/images/categories/new-york.webp" fluid alt={PRODUCT_CATEGORIES[15].name}/>
       <Row xs={1} md={2} lg={3} className="g-4 d-flex justify-content-center">

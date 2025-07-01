@@ -9,7 +9,7 @@ import {STROMBOLI} from '../../constants/regularMenuItems/stromboli';
 
 const Stromboli = () => {
   return (
-    <Container id={PRODUCT_CATEGORIES[7].id}>
+    <Container id={PRODUCT_CATEGORIES[7].id} style={{scrollMarginTop: '150px'}}>
       <h1 className='Title' style={{marginTop: '10px', marginBottom: '10px'}}>{PRODUCT_CATEGORIES[7].name}</h1>
       <Image 
         style={{marginBottom: '10px'}} src="/images/categories/stromboli.webp" fluid alt={PRODUCT_CATEGORIES[7].name}/>
